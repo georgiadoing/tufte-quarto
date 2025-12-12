@@ -2,19 +2,19 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Tufte-Quarto Project Type\nDocumentation",
+    "title": "Course: CSC:XXX Course Title\nDocumentation",
     "section": "",
-    "text": "Welcome\nThe Tufte-Quarto project is an homage to Edward Tufte. It simplifies the production of books using a layout that resembles his books(Edward R. Tufte 2001; Edward R. Tufte, Goeler, and Benson 1990; Edward R. Tufte et al. 1998) with a companion website. The goal is for the book and website share the same aesthetics.",
+    "text": "Welcome\nThe course website for CSCXXX, part of the Union College CS curriculum. Here you can find our wekkly schedule, assignmnets and resources.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
   },
   {
-    "objectID": "index.html#showcase",
-    "href": "index.html#showcase",
-    "title": "Tufte-Quarto Project Type\nDocumentation",
-    "section": "Showcase",
-    "text": "Showcase\n\nThis documentation\nThis documention itself is using Tufte-Quarto.\n\n\n\n\n\n\n\nFigure 1.1: Tufte-Quarto Documentation\n\n\n\n\nDissertation\nAs an example, my dissertation is being refactored with Tufte-Quarto, it gives an idea of a complex document built with Tufte-Quarto.",
+    "objectID": "index.html#announcements",
+    "href": "index.html#announcements",
+    "title": "Course: CSC:XXX Course Title\nDocumentation",
+    "section": "Announcements",
+    "text": "Announcements\n\nUpcoming due dates\nNext assignments is due …\n\n\nOffice Hours",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#usage",
     "href": "index.html#usage",
-    "title": "Tufte-Quarto Project Type\nDocumentation",
+    "title": "Course: CSC:XXX Course Title\nDocumentation",
     "section": "Usage",
     "text": "Usage\nTo use this project type just:\nquarto use template fredguth/tufte-quarto",
     "crumbs": [
@@ -30,11 +30,11 @@
     ]
   },
   {
-    "objectID": "index.html#about-edward-r.-tufte",
-    "href": "index.html#about-edward-r.-tufte",
-    "title": "Tufte-Quarto Project Type\nDocumentation",
-    "section": "About Edward R. Tufte",
-    "text": "About Edward R. Tufte\nProfessor Emeritus of Political Science, Statistics and Computer Sciente at Yale University, Edward Tufte is an expert in the presentation of informational. Also known as the godfather of charts. Check his website.",
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Course: CSC:XXX Course Title\nDocumentation",
+    "section": "Course Description",
+    "text": "Course Description",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
@@ -87,17 +87,6 @@
     "text": "Tufte-book can’t handle label inside caption.\nTufte-book.cls breaks when processing the line bellow:\n![A way of flying](/Images/goya.jpg){.column-body #fig-goya}\nwhich becomes:\n\\begin{figure}\n\n{\\centering \\includegraphics{Images/goya.jpg}\n\n}\n\n\\caption{\\label{fig-goya}A way of flying}\n\n\\end{figure}\nCan’t render svg image in pdf and can’t render pdf image in html.\n\ncurrent solution is quite ugly:\n\n::: {.content-hidden unless-format=\"pdf\" }\n\n![IBT \"genealogy\" tree.](/Images/dissertation-map.pdf){.column-margin width=90%}\n\n:::\n\n::: {.content-hidden unless-format=\"html\"}\n\n![IBT \"genealogy\" tree.](/Images/dissertation-map.svg){.column-margin width=90%}\n\n:::\n\nFor avoiding duplicating code, files are .svg in html by defaul and .pdf in pdf. So you can only:\n\n![IBT \"genealogy\" tree.](/Images/dissertation-map){.column-margin width=90%}\n\nTufte-class works only until subsection -&gt; ### subsection; #### subsubsection-&gt; returns error\nsidecite is duplicating citations in the same margin. Solved this same problem in my dissertation and in the kaobook class. Only problem is that Tufte-book class is a little too cryptic for me.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Known-issues</span>"
-    ]
-  },
-  {
-    "objectID": "03-Back/references.html",
-    "href": "03-Back/references.html",
-    "title": "References",
-    "section": "",
-    "text": "Tufte, Edward R. 2001. The Visual Display of Quantitative\nInformation. 2nd ed. Cheshire, CT: Graphics Press.\n\n\nTufte, Edward R, Nora Hillman Goeler, and Richard Benson. 1990.\nEnvisioning Information. Vol. 126. Graphics press Cheshire, CT.\n\n\nTufte, Edward R, Susan R McKay, Wolfgang Christian, and James R Matey.\n1998. Visual Explanations: Images and Quantities, Evidence and\nNarrative. American Institute of Physics.",
-    "crumbs": [
-      "About",
-      "References"
     ]
   },
   {
