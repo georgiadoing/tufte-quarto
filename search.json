@@ -6,7 +6,7 @@
     "section": "",
     "text": "Welcome\nThe course website for CSCXXX, part of the Union College CS curriculum. Here you can find our wekkly schedule, assignmnets and resources.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
   },
   {
@@ -16,7 +16,7 @@
     "section": "Announcements",
     "text": "Announcements\n\nUpcoming due dates\nNext assignments is due …\n\n\nOffice Hours",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
   },
   {
@@ -26,7 +26,7 @@
     "section": "Course Description",
     "text": "Course Description",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
   },
   {
@@ -50,33 +50,45 @@
     ]
   },
   {
-    "objectID": "02-Main/grading.html",
-    "href": "02-Main/grading.html",
-    "title": "Grading",
+    "objectID": "02-Main/resources.html",
+    "href": "02-Main/resources.html",
+    "title": "Schedule",
     "section": "",
-    "text": "Grade Breakdown\nGrading Scheme",
+    "text": "Schedule\nWeekly Schedule",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Grading</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Schedule</span>"
     ]
   },
   {
-    "objectID": "02-Main/grading.html#grade-breakdown",
-    "href": "02-Main/grading.html#grade-breakdown",
-    "title": "Grading",
+    "objectID": "02-Main/resources.html#schedule",
+    "href": "02-Main/resources.html#schedule",
+    "title": "Schedule",
     "section": "",
-    "text": "Course Element\nGrade Point Contribution\nNotes\n\n\n\n\nFinal Exam\nX%\nwritten\n\n\n\n\n\n\n\ntotal\n100%",
+    "text": "Week\nTopic\nAssignment\n\n\n\n\n1\ntopic…\nassignment…\n\n\n2\ntopic…\nassignment…\n\n\n3\ntopic…\nassignment…\n\n\n4\ntopic…\nassignment…\n\n\n5\ntopic…\nassignment…\n\n\n6\ntopic…\nassignment…\n\n\n7\ntopic…\nassignment…\n\n\n8\ntopic…\nassignment…\n\n\n9\ntopic…\nassignment…\n\n\n10\ntopic…\nassignment…",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Grading</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Schedule</span>"
     ]
   },
   {
-    "objectID": "02-Main/grading.html#latter-grade-scale",
-    "href": "02-Main/grading.html#latter-grade-scale",
-    "title": "Grading",
-    "section": "Latter Grade Scale",
-    "text": "Latter Grade Scale\n\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
+    "objectID": "03-Assignments/final_project.html",
+    "href": "03-Assignments/final_project.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Schedule\nWeekly Schedule",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Grading</span>"
+      "Assignments",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/final_project.html#schedule",
+    "href": "03-Assignments/final_project.html#schedule",
+    "title": "Schedule",
+    "section": "",
+    "text": "Week\nTopic\nAssignment\n\n\n\n\n1\ntopic…\nassignment…\n\n\n2\ntopic…\nassignment…\n\n\n3\ntopic…\nassignment…\n\n\n4\ntopic…\nassignment…\n\n\n5\ntopic…\nassignment…\n\n\n6\ntopic…\nassignment…\n\n\n7\ntopic…\nassignment…\n\n\n8\ntopic…\nassignment…\n\n\n9\ntopic…\nassignment…\n\n\n10\ntopic…\nassignment…",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule</span>"
     ]
   },
   {
