@@ -70,6 +70,16 @@
     ]
   },
   {
+    "objectID": "02-Main/syllabus.html",
+    "href": "02-Main/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Syllabus",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
     "objectID": "03-Assignments/final_project.html",
     "href": "03-Assignments/final_project.html",
     "title": "Schedule",
@@ -77,7 +87,7 @@
     "text": "Schedule\nWeekly Schedule",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Schedule</span>"
     ]
   },
   {
@@ -88,7 +98,7 @@
     "text": "Week\nTopic\nAssignment\n\n\n\n\n1\ntopic…\nassignment…\n\n\n2\ntopic…\nassignment…\n\n\n3\ntopic…\nassignment…\n\n\n4\ntopic…\nassignment…\n\n\n5\ntopic…\nassignment…\n\n\n6\ntopic…\nassignment…\n\n\n7\ntopic…\nassignment…\n\n\n8\ntopic…\nassignment…\n\n\n9\ntopic…\nassignment…\n\n\n10\ntopic…\nassignment…",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Schedule</span>"
     ]
   },
   {
