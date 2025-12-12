@@ -168,3 +168,18 @@ nav[role=doc-toc] {
     font-style: normal;
     text-transform: uppercase;
 }
+
+/* Two-column layout for grading tables */
+.two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.25rem;
+    gap: 1.25rem;
+    align-items: start;
+}
+
+@media (max-width: 1500px) {
+    .two-cols {
+        grid-template-columns: 1fr;
+    }
+}
