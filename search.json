@@ -20,16 +20,6 @@
     ]
   },
   {
-    "objectID": "index.html#usage",
-    "href": "index.html#usage",
-    "title": "Course: CSC:XXX Course Title\nDocumentation",
-    "section": "Usage",
-    "text": "Usage\nTo use this project type just:\nquarto use template fredguth/tufte-quarto",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
-    ]
-  },
-  {
     "objectID": "index.html#course-description",
     "href": "index.html#course-description",
     "title": "Course: CSC:XXX Course Title\nDocumentation",
@@ -40,53 +30,53 @@
     ]
   },
   {
-    "objectID": "02-Main/customizing.html",
-    "href": "02-Main/customizing.html",
-    "title": "Customizing",
+    "objectID": "02-Main/schedule.html",
+    "href": "02-Main/schedule.html",
+    "title": "Schedule",
     "section": "",
-    "text": "Book Structure\nYou can customize your book by changing _quarto.yml and the files it referendes. This project organize files in 4 basic folders:",
+    "text": "Schedule\nWeekly Schedule",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Customizing</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
     ]
   },
   {
-    "objectID": "02-Main/customizing.html#book-structure",
-    "href": "02-Main/customizing.html#book-structure",
-    "title": "Customizing",
+    "objectID": "02-Main/schedule.html#schedule",
+    "href": "02-Main/schedule.html#schedule",
+    "title": "Schedule",
     "section": "",
-    "text": "Cover\nFront Matter\n\nTitle Page\nCopyright\nDedication\nEpigraph/dictum\nTable of Contents\n\nMain Matter\n\nchapters\n\nBack Matter\n\nreferences\nappendices\nacknowledgements\ncolophon",
+    "text": "Week\nTopic\nAssignment\n\n\n\n\n1\ntopic…\nassignment…\n\n\n2\ntopic…\nassignment…\n\n\n3\ntopic…\nassignment…\n\n\n4\ntopic…\nassignment…\n\n\n5\ntopic…\nassignment…\n\n\n6\ntopic…\nassignment…\n\n\n7\ntopic…\nassignment…\n\n\n8\ntopic…\nassignment…\n\n\n9\ntopic…\nassignment…\n\n\n10\ntopic…\nassignment…",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Customizing</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
     ]
   },
   {
-    "objectID": "02-Main/customizing.html#file-structure",
-    "href": "02-Main/customizing.html#file-structure",
-    "title": "Customizing",
-    "section": "File Structure",
-    "text": "File Structure\n\n\n\nBook Part\nFile\nHow to customize\n\n\n\n\nCover\nimages/bookcover.pdf\nReplace the file. If no file, no cover.\n\n\nTitlepage\n_quarto.yml\nBuilt from metadata. For further customization use partials.\n\n\nCopyright\n01-Front/dedication.tex\nReplace or exclude/rename file.\n\n\nDedication\n01-Front/dedication.tex\nReplace or exclude/rename file.\n\n\nEpigraph\n01-Front/epigraph.tex\nReplace or exclude/rename file.\n\n\nToC\n_quarto.yml\nBuilt from metadata. For further customization use partials.\n\n\nChapters\n_quarto.yml\nYou can reference chapters, parts and apendices.\n\n\nAcknolegements\n03-Back/ack.qmd\nReplace or exclude/rename file.\n\n\nColophon\n03-Back/colophon.qmd\nReplace or exclude/rename file.\n\n\n\n\nAdvanced Cutomization\nIn _extensions/tufte/_extension.yml you can check the default settings of the Tufte-Quarto Book type. All these settings can be overwritten in _quarto.yml.\nThe project uses tufte-book Latex class.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Customizing</span>"
-    ]
-  },
-  {
-    "objectID": "02-Main/customizing.html#customizing-the-website",
-    "href": "02-Main/customizing.html#customizing-the-website",
-    "title": "Customizing",
-    "section": "Customizing the Website",
-    "text": "Customizing the Website\nBesides the settings from _extensions/tufte/_extension.yml &gt; format &gt; html that can be overwritten in _quarto.yml &gt; format &gt; html, you can further customize the website by creating a style.css file and referencing it in _quarto.yml. Check _extensions/tufte/style.css as an example, but avoid changing directly there as Tufte-Quarto updates may break your changes.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Customizing</span>"
-    ]
-  },
-  {
-    "objectID": "02-Main/known_issues.html",
-    "href": "02-Main/known_issues.html",
-    "title": "Known-issues",
+    "objectID": "02-Main/grading.html",
+    "href": "02-Main/grading.html",
+    "title": "Grading",
     "section": "",
-    "text": "Tufte-book can’t handle label inside caption.\nTufte-book.cls breaks when processing the line bellow:\n![A way of flying](/Images/goya.jpg){.column-body #fig-goya}\nwhich becomes:\n\\begin{figure}\n\n{\\centering \\includegraphics{Images/goya.jpg}\n\n}\n\n\\caption{\\label{fig-goya}A way of flying}\n\n\\end{figure}\nCan’t render svg image in pdf and can’t render pdf image in html.\n\ncurrent solution is quite ugly:\n\n::: {.content-hidden unless-format=\"pdf\" }\n\n![IBT \"genealogy\" tree.](/Images/dissertation-map.pdf){.column-margin width=90%}\n\n:::\n\n::: {.content-hidden unless-format=\"html\"}\n\n![IBT \"genealogy\" tree.](/Images/dissertation-map.svg){.column-margin width=90%}\n\n:::\n\nFor avoiding duplicating code, files are .svg in html by defaul and .pdf in pdf. So you can only:\n\n![IBT \"genealogy\" tree.](/Images/dissertation-map){.column-margin width=90%}\n\nTufte-class works only until subsection -&gt; ### subsection; #### subsubsection-&gt; returns error\nsidecite is duplicating citations in the same margin. Solved this same problem in my dissertation and in the kaobook class. Only problem is that Tufte-book class is a little too cryptic for me.",
+    "text": "Grade Breakdown\nGrading Scheme",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Known-issues</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Grading</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/grading.html#grade-breakdown",
+    "href": "02-Main/grading.html#grade-breakdown",
+    "title": "Grading",
+    "section": "",
+    "text": "Course Element\nGrade Point Contribution\nNotes\n\n\n\n\nFinal Exam\nX%\nwritten\n\n\n\n\n\n\n\ntotal\n100%",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Grading</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/grading.html#latter-grade-scale",
+    "href": "02-Main/grading.html#latter-grade-scale",
+    "title": "Grading",
+    "section": "Latter Grade Scale",
+    "text": "Latter Grade Scale\n\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Grading</span>"
     ]
   },
   {
