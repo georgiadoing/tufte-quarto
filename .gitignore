@@ -1,5 +1,5 @@
 /.quarto/
-*.html
+
 *.tex
 *.pdf
 *.png
