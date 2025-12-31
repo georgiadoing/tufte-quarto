@@ -1,0 +1,23 @@
+---
+title: Schedule
+---
+
+Weekly Schedule
+
+## Schedule
+
+| Week | Topic                     | Assignment |
+|-----------|:-------------------------|:-------------------|
+| 1     | topic...     | assignment... |
+| 2     | topic...     | assignment... |
+| 3     | topic...     | assignment... |
+| 4     | topic...     | assignment... |
+| 5     | topic...     | assignment... |
+| 6     | topic...     | assignment... |
+| 7     | topic...     | assignment... |
+| 8     | topic...     | assignment... |
+| 9     | topic...     | assignment... |
+| 10     | topic...     | assignment... |
+
+
+
