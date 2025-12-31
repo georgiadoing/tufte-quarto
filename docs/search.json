@@ -76,7 +76,7 @@
     "section": "",
     "text": "Many thanks to the Quarto team for creating this wonderful tool. I am also grateful for the support I got at Quarto’s Discussion Board, specialy:\n\nMickaël Canouil (@mcanouil);\nCharles Teague (@dragonstyle);\nRaniere Silva (@rgaiacs); and\nChristophe Dervieux (@cderv)",
     "crumbs": [
-      "About",
+      "about.qmd",
       "Acknowledgements"
     ]
   },
@@ -87,7 +87,7 @@
     "section": "",
     "text": "Composed in ET Book, a free and open-sopurce typeface designed by Dmitry Krasny, Bonnie Scranton, and Edward Tufte; and Gyre Heros, a fontbased on the URW Nimbus Sans L kindly released by URW++ Design and Development Inc. under GFL. Based on Tufte-Latex and Quarto.",
     "crumbs": [
-      "About",
+      "about.qmd",
       "Colophon"
     ]
   }
