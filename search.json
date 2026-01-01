@@ -70,17 +70,6 @@
     ]
   },
   {
-    "objectID": "03-Back/ack.html",
-    "href": "03-Back/ack.html",
-    "title": "Acknowledgements",
-    "section": "",
-    "text": "Many thanks to the Quarto team for creating this wonderful tool. I am also grateful for the support I got at Quarto’s Discussion Board, specialy:\n\nMickaël Canouil (@mcanouil);\nCharles Teague (@dragonstyle);\nRaniere Silva (@rgaiacs); and\nChristophe Dervieux (@cderv)",
-    "crumbs": [
-      "About",
-      "Acknowledgements"
-    ]
-  },
-  {
     "objectID": "03-Back/colophon.html",
     "href": "03-Back/colophon.html",
     "title": "Colophon",
